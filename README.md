@@ -1,4 +1,4 @@
 oradba
 ======
 
-My Oracle DBA scripts
+My Oracle DBA scripts for now
