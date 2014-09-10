@@ -9,7 +9,7 @@ elif [ "`uname -s`" = "Linux" ]; then
                 echo "$DIR              $GB_FREE"
         fi
         done) | sort
-else
+else    # It is probably HP-UX ...
         echo "Volume                    Space Available (MB)"
         (for DIR in /oracle/$ORACLE_SID/*data*; do
         if [ -d $DIR ]; then
