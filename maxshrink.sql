@@ -1,4 +1,5 @@
 set verify off
+set pagesize 150
 column file_name format a50 word_wrapped
 column smallest format 999,990 heading "Smallest|Size|Poss."
 column currsize format 999,990 heading "Current|Size"
